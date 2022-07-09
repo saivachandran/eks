@@ -8,4 +8,4 @@ Amazon Elastic Kubernetes Service (Amazon EKS) is a managed Kubernetes service t
 With Amazon EKS, you can take advantage of all the performance, scale, reliability, and availability of AWS infrastructure, as well as integrations with AWS networking and security services, such as application load balancers (ALBs) for load distribution, AWS Identity and Access Management (IAM) integration with role-
 ```
 
-[aws link] (https://www.amazonaws.cn/en/eks/features/)
+[aws link](https://www.amazonaws.cn/en/eks/features/)
