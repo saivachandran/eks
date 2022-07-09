@@ -46,7 +46,8 @@ With Amazon EKS, you can take advantage of all the performance, scale, reliabili
 
 . container + serverless
 
-
 # kubernetes architecture
 
-/home/techops/Pictures/eks-archi.png
+![image](https://user-images.githubusercontent.com/42309948/178093014-12654d76-d2af-4360-8919-82d7c9ece25a.png)
+
+
