@@ -9,3 +9,44 @@ With Amazon EKS, you can take advantage of all the performance, scale, reliabili
 ```
 
 [aws link](https://www.amazonaws.cn/en/eks/features/)
+
+
+# eks intro
+
+. Aws Manage High availablity of control plane behind the scenes it deploy multiple ec2 and multiple az
+
+. Aws detects and replace unhealthy control plane instances
+
+. Aws scale control plane
+
+. Aws maintain Etcd
+
+. Provide Automate version upgrade and patching
+
+. Integrated aws Eco system 
+
+# Self managed worknode group
+
+. you maintain Ec2
+
+. you maintain orchestrate version upgrade
+
+. security patch 
+
+. keep pods up
+
+. can use cutom ami
+
+
+# Fargate
+
+. No Worker Ec2 whatever
+
+. You define and deploy pod
+
+. container + serverless
+
+
+# kubernetes architecture
+
+/home/techops/Pictures/eks-archi.png
