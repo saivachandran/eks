@@ -22,7 +22,7 @@ kubectl create -f loadbalancer.yaml
 kubectl get service/nginx-service-loadbalancer |  awk {'print $1" " $2 " " $4 " 
 ```
 
-[Refer link1](https://docs.aws.amazon.com/eks/latest/userguide/sample-deployment.html)
+[Referlink2](https://aws.amazon.com/premiumsupport/knowledge-center/eks-kubernetes-services-cluster/)
 
 [Refer link2](https://docs.aws.amazon.com/eks/latest/userguide/sample-deployment.html)
 
