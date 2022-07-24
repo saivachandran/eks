@@ -114,3 +114,26 @@ eksctl is a simple CLI tool for creating and managing clusters on EKS - Amazon's
 ```
 The Kubernetes command-line tool, kubectl, allows you to run commands against Kubernetes clusters. You can use kubectl to deploy applications, inspect and manage cluster resources, and view logs. For more information including a complete list of kubectl operations, see the kubectl reference documentation
 ```
+
+# Eks managed node group
+
+```
+
+
+Amazon EKS managed node groups create and manage Amazon EC2 instances for you.
+
+Every managed node is provisioned as part of an Amazon EC2 Auto Scaling group that's managed for you by Amazon EKS. Moreover, every resource including Amazon EC2 instances and Auto Scaling groups run within your AWS account.
+
+The Auto Scaling group of a managed node group spans every subnet that you specify when you create the group.
+
+Amazon EKS tags managed node group resources so that they are configured to use the Kubernetes Cluster Autoscaler.
+
+
+
+You can use a custom launch template for a greater level of flexibility and customization when deploying managed nodes. If you deploy using a launch template, you can also use a custom AMI. For more information, see Launch template support. If you don't use a custom launch template when first creating a managed node group, there is an auto-generated launch template. Don't manually modify this auto-generated template or errors occur.
+
+Amazon EKS follows the shared responsibility model for CVEs and security patches on managed node groups. When managed nodes run an Amazon EKS optimized AMI, Amazon EKS is responsible for building patched versions of the AMI when bugs or issues are reported. We can publish a fix. However, you're responsible for deploying these patched AMI versions to your managed node groups. When managed nodes run a custom AMI, you're responsible for building patched versions of the AMI when bugs or issues are reported and then deploying the AMI. For more information, see Updating a managed node group.
+
+Amazon EKS managed node groups can be launched in both public and private subnets. If you launch a managed node group in a public subnet on or after April 22, 2020, the subnet must have MapPublicIpOnLaunch set to true for the instances to successfully join a cluster. If the public subnet was created using eksctl or the Amazon EKS vended AWS CloudFormation templates on or after March 26, 2020, then this setting is already set to true. If the public subnets were created before March 26, 2020, you must change the setting manually. For more information, see Modifying the public IPv4 addressing attribute for your subnet.
+
+```
