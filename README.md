@@ -137,3 +137,22 @@ Amazon EKS follows the shared responsibility model for CVEs and security patches
 Amazon EKS managed node groups can be launched in both public and private subnets. If you launch a managed node group in a public subnet on or after April 22, 2020, the subnet must have MapPublicIpOnLaunch set to true for the instances to successfully join a cluster. If the public subnet was created using eksctl or the Amazon EKS vended AWS CloudFormation templates on or after March 26, 2020, then this setting is already set to true. If the public subnets were created before March 26, 2020, you must change the setting manually. For more information, see Modifying the public IPv4 addressing attribute for your subnet.
 
 ```
+
+# helmcharts
+
+1. helm is a package manager for kubernetes
+
+2. helm pacakes are called charts 
+
+3. helm charts help define, install and upgrade
+
+4. helm charts can be versioned shared and upgraded
+
+5. helm chart can be accepted input paramaeter
+
+  . kubectl need template engine to do this
+      (customize jinja etc)
+
+6. popular packages already available
+
+   
