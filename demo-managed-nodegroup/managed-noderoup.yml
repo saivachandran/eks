@@ -1,4 +1,4 @@
-```
+
 apiVersion: eksctl.io/v1alpha5
 kind: ClusterConfig
 
@@ -17,4 +17,3 @@ managedNodeGroups:
 
 kubernetesVersion: "1.21"
 
-```
