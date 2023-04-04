@@ -9,4 +9,7 @@
    5. scheduler
    
  2. Workernode logging  
+
+    1. system logs kubelet kubeproxy  dockerd
+    2. application logs from container
    
