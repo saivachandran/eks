@@ -2,11 +2,11 @@
 
 1. control plane logging
 
-   (*) k8s Api
-   . Audit
-   . Authendicator
-   . Control manager
-   . scheduler
+   1. k8s Api
+   2. Audit
+   3. Authendicator
+   4. Control manager
+   5. scheduler
    
  2. Workernode logging  
    
