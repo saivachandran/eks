@@ -2,7 +2,7 @@
 
 1. control plane logging
 
-   . k8s Api
+   (*) k8s Api
    . Audit
    . Authendicator
    . Control manager
