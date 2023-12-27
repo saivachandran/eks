@@ -1,0 +1,27 @@
+apiVersion: eksctl.io/v1alpha5
+kind: ClusterConfig
+
+metadata:
+  name: spot-cluster
+  region: ap-south-1
+  version: "1.23"  # Specify Kubernetes version
+
+availabilityZones:
+  - ap-south-1a  # Replace with supported AZs
+  - ap-south-1b
+
+managedNodeGroups:
+  - name: spot
+    instanceTypes: ["c4.large","c5.large","c5d.large"]
+    spot: true
+    desiredCapacity: 3  # Set desired number of instances
+
+  # `instanceTypes` defaults to [`m5.large`]
+  - name: spot-2
+    spot: true
+    desiredCapacity: 2  # Set desired number of instances
+
+  # On-Demand instances
+  - name: on-demand
+    instanceTypes: ["t3.micro", "t2.micro"]
+    desiredCapacity: 1  # Set desired number of instances
