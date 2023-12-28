@@ -83,4 +83,12 @@ eksctl upgrade nodegroup --name=on-demand --cluster=spot-cluster --kubernetes-ve
 
 ````
 
+View upgrade version
+===================
+```
+kubectl get nodes --watch
+
+```
+
+[eksupgrade referlink](https://archive.eksworkshop.com/intermediate/320_eks_upgrades/upgrademng/)
 
