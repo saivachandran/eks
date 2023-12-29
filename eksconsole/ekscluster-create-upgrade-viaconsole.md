@@ -1,7 +1,7 @@
- 1.create cluster iam role,
- 2. create dedicated vpc using cloudformation template,
- 3.create eks cluster,
- 4. install iam auth amd kubectls on working instance
+**create cluster iam role:**
+**create dedicated vpc using cloudformation template:**
+**create eks cluster:**
+**install iam auth amd kubectls on working instance:**
 
 kubeconfig update
 ---------------
