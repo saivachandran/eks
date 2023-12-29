@@ -11,11 +11,11 @@ export KUBECONFIG=~/.kube/config
 
 ```
 
-5. create role for worker node
-   policy: ekscni,workernodepolicy,ec2contaierread
+5. **create role for worker node:**
+   - policy: ekscni,workernodepolicy,ec2contaierread
 
- 6. create worker node
- 7. deploy sample app
+ 6. **create worker node:**
+ 7. **deploy sample app:**
 
 [refer video](https://www.youtube.com/watch?v=aZd0UolVwD4)
 
