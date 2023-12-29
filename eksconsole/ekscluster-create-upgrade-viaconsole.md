@@ -18,3 +18,10 @@ export KUBECONFIG=~/.kube/config
  7. deploy sample app
 
 [refer video](https://www.youtube.com/watch?v=aZd0UolVwD4)
+
+(''Fill in the details for each step, providing clear instructions.
+Use additional Markdown formatting for clarity and visual appeal:
+Use headings (#, ##, ###) to organize content.
+Create lists (-, *) for steps or options.
+Add code blocks (````) for commands or code snippets.
+Link to relevant resources using [text](link) syntax.'')
